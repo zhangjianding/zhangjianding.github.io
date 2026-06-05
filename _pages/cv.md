@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "运维履历"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,41 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## 工作经历
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **[2021年 - 至今]：[北京XX科技有限公司] ｜ 高级运维工程师**
+  * 负责公司核心业务系统（日活[X]万）的架构部署与维护，保障全年可用性99.9%
+  * 使用 Docker + K8s 重构了服务部署流程，实现一键滚动更新与自动弹性伸缩，发布效率提升约60%
+  * 主导将IDC业务迁移上云（腾讯云/阿里云），通过架构优化及资源合理选型，年度云成本降低约30%
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **[2018年 - 2021年]：[北京XX信息有限公司] ｜ 运维工程师**
+  * 维护线上200+台 Linux 服务器，负责日常巡检、故障排查与性能调优
+  * 搭建 Zabbix/Prometheus + Grafana 监控告警体系，将故障平均发现时间(MTTD)从15分钟缩短至3分钟
+  * 编写自动化运维脚本（Shell/Python），实现日志分析、数据备份、定时任务的集中管理
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## 专业技能
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* **云平台**：熟练掌握腾讯云、阿里云、AWS，有大规模资源管理及成本优化经验
+* **容器化**：精通 Docker 和 Kubernetes（K8s），有生产环境迁移和服务编排经验
+* **监控与日志**：独立搭建过 Prometheus/Grafana（监控）、ELK（日志分析）体系
+* **自动化**：熟练使用 Ansible/SaltStack 进行批量系统配置，有 GitLab CI/GitHub Actions 流水线搭建经验
+* **操作系统与网络**：深入理解 Linux 系统（CentOS/Ubuntu），能独立排查复杂的网络问题
+
+## 个人项目与服务案例
+
+* **某电商网站双11保障**：提前2个月进行压测与架构扩容，设计降级预案，最终平稳支撑峰值 QPS 5000+ 的流量冲击
+* **SaaS创业公司自动化改造**：从0到1搭 GitOps 流水线，开发环境和预发环境全自动部署，研发效率提升80%
+* **企业服务器紧急救援**：为北京本地一家公司解决勒索病毒加密数据问题，成功恢复90%数据并重建安全防护体系
+
+## 证书与荣誉
+
+* 腾讯云架构工程师认证 (TCA)
+* CKA（Certified Kubernetes Administrator）证书（备考中/已取得）
+* 2023年度 公司“技术攻坚奖”
+
+## 教育与培训
+
+* **[你的毕业院校]** ｜ 计算机科学与技术 本科 ｜ [2014-2018年]（示例）
+
+---
+**联系方式**：[你的手机号] | [你的邮箱] | 微信（同手机号） | [你的GitHub/技术博客链接]
