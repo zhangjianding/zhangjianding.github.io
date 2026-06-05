@@ -1,101 +1,145 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# 张建国律师 - 医疗纠纷法律服务
 
-![Academic Pages template example](images/themes/homepage-light.png "Academic Pages template example")
+欢迎来到张建国律师的专业网站。我专注于医疗纠纷法律服务，为患方（患者及家属）提供专业的法律保障。
 
-# Getting Started
+## 🎯 关于我
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your public repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Edit site-wide configuration in `_config.yml` and double check that the `url` is the one that you just selected in the previous step and that `repository` reflects the correct path for your repository.
-1. Add your site content, upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+我是一名专业的医疗纠纷法律工作者，致力于为患方争取最大的合法权益。通过医学专家 + 法律专家的双重把关，确保每个案件都得到专业、负责任的处理。
 
-See more info at https://academicpages.github.io/
+**专业特色：**
+- ✅ 专注医疗纠纷领域多年
+- ✅ 只代理患方，不接医院委托
+- ✅ 风险代理模式，胜诉后收费
+- ✅ 与医学专家深度合作
+- ✅ 案件代理数百件，赔偿数千万元
 
-### Additional Tutorials
+## 📋 服务范围
 
-Additional tutorials for working with the Academic Pages template can be found at the following sites:
-- https://jayrobwilliams.com/posts/2020/06/academic-website/
+1. **医疗事故责任纠纷** - 构成医疗事故的损害赔偿
+2. **医疗损害责任纠纷** - 医疗过错导致的损害赔偿
+3. **医疗产品责任纠纷** - 假药、不合格器械导致的损害赔偿
+4. **知情同意权纠纷** - 未告知手术风险进行治疗
+5. **司法鉴定代理** - 医疗过错、伤残等级鉴定
+6. **调解与谈判** - 医疗��纷专业调解代理
+7. **诉讼代理** - 一审、二审、再审全程代理
 
-## Running locally
+## 🚀 快速开始
 
-When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+### 第一步：初步咨询（免费）
 
-1. Clone the repository and made updates as detailed above.
+**📞 电话咨询：133-6652-0231**
+- 工作时间：周一至周五 9:00-18:00
+- 您可以快速了解案件是否有代理价值
 
-### Using a different IDE
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distributions and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
-    ```bash
-    sudo apt update && sudo apt upgrade -y
-    ```
-    then try running `sudo apt install ruby-dev ruby-bundler nodejs` again.
+**💬 微信咨询：133-6652-0231**
+- 加微信请备注："医疗纠纷咨询"
+- 可发送病历、医疗单据
 
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
+**📧 邮件咨询：contact@example.com**
+- 适合情况复杂或需要详细说明的案件
+- 通常24小时内回复
 
-    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
-    Install Gems Locally (Recommended):
-    ```bash
-    bundle config set --local path 'vendor/bundle'
-    ```
-    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and `.bundle`.
+### 第二步：病历评估（免费）
 
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change to Markdown (*.md) and HTML files, while changes to the core template and configuration (i.e., `_config.yml`) will require stopping and restarting Jekyll.
-    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
+我们的医学专家会免费为您审阅病历，并给出：
+- 是否存在医疗过错
+- 鉴定通过的可能性
+- 预估赔偿金额范围
+- 后续处理建议
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+### 第三步：正式委托
 
-## Using Docker
+满意后签订《法律服务委托代理协议》，明确：
+- 代理范围和权限
+- 收费方式和金额
+- 双方的权利和义务
+- 沟通方式和频率
 
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
+### 第四步：全权代理
 
-You can build and execute the container by running the following command in the repository:
+我们会为您处理：
+- 证据收集和整理
+- 申请司法鉴定
+- 参与鉴定质证
+- 调解谈判或诉讼
+- 跟踪赔款到位
 
-```bash
-chmod -R 777 .
-docker compose up
-```
+## 💰 收费方式
 
-You should now be able to access the website from `localhost:4000`.
+### 🏆 风险代理（推荐）
 
-### Using the DevContainer in VS Code
+**只有胜诉后才收费！**
 
-If you are using [Visual Studio Code](https://code.visualstudio.com/) you can use the [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) that comes with this Repository. Normally VS Code detects that a development container configuration is available and asks you if you want to use the container. If this doesn't happen you can manually start the container by **F1->DevContainer: Reopen in Container**. This restarts your VS Code in the container and automatically hosts your academic page locally on http://localhost:4000. All changes will be updated live to that page after a few seconds.
+- 按照获得赔偿的比例收费（通常20%-30%）
+- 您无需支付前期费用
+- 律师的利益与您的利益完全一致
+- 更有动力争取最大赔偿
 
-# Maintenance
+**适合情况：**
+- 对案件胜诉有信心
+- 暂时没有经济能力支付律师费
+- 希望律师与您"共同承担风险"
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+### 🔄 半风险代理
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii), and additional maintainers would be welcome.
+**前期费用 + 后期成功费用**
 
-## Bugfixes and enhancements
+- 签约时支付一定比例的基本费用
+- 获得赔偿后支付额外的成功费
+- 风险和收益双方共担
 
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of the template to your fork as well.
+**适合情况：**
+- 对案件情况有把握但希望分担费用
+- 需要更早启动诉讼程序
+- 希望获得更密集的服务
 
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize, although [rebasing](https://git-scm.com/docs/git-rebase) the changes from this template will work along with manually [cherry picking](https://git-scm.com/docs/git-cherry-pick) the relevant commits. If you are not comfortable with the Git command line, you can save your various `.yml` configuration files and Markdown files, delete the repository, and fork it again. 
+### ⏰ 时间费用
+
+**按小时或阶段收费**
+
+- 通常用于纯粹咨询或部分特殊案件
+- 收费标准根据律师工作量确定
+- 适合情况简单、纠纷金额较小的案件
+
+## ❓ 常见问题
+
+**Q: 医疗纠纷什么时候该找律师？**
+
+A: 只要您认为医生可能存在过错，就应该找律师咨询。越早介入越好，可以：
+- 及时保全证据（病历等）
+- 及时申请司法鉴定
+- 把握诉讼时效（通常3年）
+
+**Q: 我们没钱先付律师费可以吗？**
+
+A: 完全可以！我们提供**风险代理模式**：只有胜诉获得赔偿后，才按比例收取律师费。
+
+**Q: 医疗事故鉴定有多难？**
+
+A: 不会很难。只要存在真实的医疗过错，通过专业的证据分析和医学专家的支持，通常都能获得鉴定意见。
+
+**Q: 调解和诉讼哪个更好？**
+
+A: 各有优缺点。调解更快、费用少、更灵活；诉讼更正式、有判决书、更具约束力。我们会根据案件情况为您建议最优方案。
+
+## 📞 立即联系
+
+### 三种联系方式，任选其一：
+
+1. **电话咨询**（最快）
+   - 📞 133-6652-0231
+   - 工作时间内立即接听
+
+2. **微信咨询**（最方便）
+   - 💬 微信号：133-6652-0231
+   - 可发送文件，随时沟通
+
+3. **邮件咨询**（最详细）
+   - 📧 contact@example.com
+   - 24小时内回复
 
 ---
-<div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
 
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
-</div>
+**您的权益，我们来维护。** ⚖️
+
+*初步咨询完全免费，无任何强制或压力。*
